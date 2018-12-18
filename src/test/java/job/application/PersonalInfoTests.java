@@ -104,7 +104,7 @@ public class PersonalInfoTests {
 	    driver.findElement(By.xpath(" //input[@name='Number']")).sendKeys(String.valueOf(annualSalary)+Keys.TAB);
 	    verifySalaryCalculations(annualSalary);
 	    driver.findElement(By.xpath("//em[.=' Next ']")).click();
-	    driver.close();
+	    
 	}
 	public void verifySalaryCalculations(int annual) {
 	
