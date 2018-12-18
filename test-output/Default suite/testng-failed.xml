@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.erkantek.ATestThatCleanUp">
+      <class name="job.application.PersonalInfoTests">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="searchGoogle"/>
+          <include name="navigateToHomePage"/>
+          <include name="submitFullApplication"/>
         </methods>
-      </class> <!-- com.erkantek.ATestThatCleanUp -->
+      </class> <!-- job.application.PersonalInfoTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
