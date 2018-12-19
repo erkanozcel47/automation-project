@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10450" started-at="2018-12-19T02:08:07Z" finished-at="2018-12-19T02:08:17Z">
+  <suite name="Default suite" duration-ms="18722" started-at="2018-12-19T23:40:38Z" finished-at="2018-12-19T23:40:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10450" started-at="2018-12-19T02:08:07Z" finished-at="2018-12-19T02:08:17Z">
-      <class name="com.webelement.Amazon">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.webelement.Amazon@42d80b78]" name="setUp" is-config="true" duration-ms="4200" started-at="2018-12-19T02:08:07Z" finished-at="2018-12-19T02:08:11Z">
+    <test name="Default test" duration-ms="18722" started-at="2018-12-19T23:40:38Z" finished-at="2018-12-19T23:40:56Z">
+      <class name="actionPackage.ActionExamples">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:actionPackage.ActionExamples@5c3bd550]" name="setUp" is-config="true" duration-ms="4857" started-at="2018-12-19T23:40:38Z" finished-at="2018-12-19T23:40:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="amazonPrice()[pri:0, instance:com.webelement.Amazon@42d80b78]" name="amazonPrice" duration-ms="6220" started-at="2018-12-19T02:08:11Z" finished-at="2018-12-19T02:08:17Z">
+        <test-method status="PASS" signature="draganddrop()[pri:0, instance:actionPackage.ActionExamples@5c3bd550]" name="draganddrop" duration-ms="13837" started-at="2018-12-19T23:40:42Z" finished-at="2018-12-19T23:40:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazonPrice -->
-      </class> <!-- com.webelement.Amazon -->
+        </test-method> <!-- draganddrop -->
+      </class> <!-- actionPackage.ActionExamples -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
