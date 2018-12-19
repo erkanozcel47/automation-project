@@ -99,7 +99,20 @@ public class WebElements {
 		
 	}
 	
-	
+	@Test
+	public void slideShow() throws InterruptedException {
+		driver.get("https://www.hbloom.com/");
+		List<WebElement> images = driver.findElements(By.tagName("img"));
+		List<String> srcs=new ArrayList<>();
+		for (WebElement flower : images) {
+			srcs.add(flower.getAttribute("src"));
+			
+		}
+		for (String link : srcs) {
+			driver.get(link);
+			Thread.sleep(1234);
+		}
+	}
 	
 	 
 	
