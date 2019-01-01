@@ -64,6 +64,7 @@ public class ActionExamples {
 		action.dragAndDrop(source, target).perform();
 		Thread.sleep(2000);
 		action.moveToElement(source).clickAndHold().moveToElement(target).release().perform();
+		
 	}
 	
 	
@@ -74,4 +75,22 @@ public class ActionExamples {
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 }
+

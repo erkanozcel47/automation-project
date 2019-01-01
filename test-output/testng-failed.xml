@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="actionPackage.ActionExamples">
+      <class name="syncroniziatinday.Sleeptest">
         <methods>
-          <include name="setUp"/>
-          <include name="hoverTest"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- actionPackage.ActionExamples -->
+      </class> <!-- syncroniziatinday.Sleeptest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

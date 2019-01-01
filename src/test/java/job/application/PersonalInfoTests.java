@@ -14,6 +14,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
@@ -50,7 +51,7 @@ public class PersonalInfoTests {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		// driver.manage().window().fullscreen();
 	}
-
+	 
 	@BeforeMethod
 	public void navigateToHomePage() {
 		System.out.println("Navigate to home page in @BeforeMEthod");
@@ -87,6 +88,7 @@ public class PersonalInfoTests {
 
 	}
 
+ 
 	@Test
 	public void submitFullApplication() {
 		driver.findElement(By.xpath("//input[@name='Name_First']")).sendKeys(firstName);
@@ -137,7 +139,7 @@ public class PersonalInfoTests {
 			driver.findElement(By.xpath("//input[@value='Female']")).click();
 		}
 	}
-	
+ 
 	@Test
 	public void fullNameEmptyTest() {
 		// Firstly assert that you are on correct page
@@ -148,5 +150,7 @@ public class PersonalInfoTests {
 		driver.findElement(By.xpath("//em[.=' Next ']")).click();
 
 	}
+	
+	
 
 }
